@@ -8,6 +8,7 @@ import LoadingBar from './components/LoadingBar';
 import { FormProvider } from './components/FormContext';
 import UpSellPage from './components/UpSellPage';
 import ThankYouPage from './components/ThankYouPage';
+import UpsellPageProvisions from './components/UpSellPageProvisions';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/terms" element={<TermsConditions />} />
       <Route path="/offerPage" element={<OfferPage />} />
       <Route path="/upsell" element={<UpSellPage />} />
+      <Route path="/upsellProvisions" element={<UpsellPageProvisions />} />
       <Route path="/thanks" element={<ThankYouPage />} />
     </Routes>
   </FormProvider>

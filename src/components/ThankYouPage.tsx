@@ -10,7 +10,7 @@ const ThankYouPage = () => {
          Obrigado pelo seu pedido!
         </h1>
         <p className="text-xl text-purple-200 mb-8">
-          O retrato da sua alma gêmea está sendo preparado com muito cuidado e atenção.
+          O seu guia está sendo preparado com muito cuidado e atenção.
           Em breve você receberá um e-mail com todos os detalhes.
         </p>
         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
